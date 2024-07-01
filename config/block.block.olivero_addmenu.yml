@@ -1,0 +1,35 @@
+uuid: 15c29f72-b862-439b-b95b-62eaedb84a2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.add-menu
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_addmenu
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'system_menu_block:add-menu'
+settings:
+  id: 'system_menu_block:add-menu'
+  label: 'Add Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      content_editor: content_editor
+      administrator: administrator
+      hr: hr

@@ -1,0 +1,19 @@
+uuid: c486b18e-2189-4257-87bc-34a5ce9ffe3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_customer_name
+    - taxonomy.vocabulary.project
+id: taxonomy_term.project.field_customer_name
+field_name: field_customer_name
+entity_type: taxonomy_term
+bundle: project
+label: 'Customer Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

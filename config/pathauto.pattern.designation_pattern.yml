@@ -1,0 +1,23 @@
+uuid: 3211f293-9c15-495e-9510-9d34b550eaf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: designation_pattern
+label: 'Taxonomy Pattern'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:vocabulary]/[term:name]'
+selection_criteria:
+  a133f400-e30b-426f-9e3f-4cdbfc64e89c:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: a133f400-e30b-426f-9e3f-4cdbfc64e89c
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      designation: designation
+      tech_skills: tech_skills
+selection_logic: and
+weight: -5
+relationships: {  }

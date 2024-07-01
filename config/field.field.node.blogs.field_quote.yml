@@ -1,0 +1,19 @@
+uuid: 3c4b75b9-1e49-4257-aa4d-f09652357c41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quote
+    - node.type.blogs
+id: node.blogs.field_quote
+field_name: field_quote
+entity_type: node
+bundle: blogs
+label: Quote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

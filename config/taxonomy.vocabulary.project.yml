@@ -1,0 +1,9 @@
+uuid: 2f0443e0-efa3-4529-8b05-43c5d5af6c0a
+langcode: en
+status: true
+dependencies: {  }
+name: Project
+vid: project
+description: 'Holds teams of project.'
+weight: 0
+new_revision: false

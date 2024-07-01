@@ -1,0 +1,24 @@
+uuid: 48783e6a-f88b-460d-b747-fd5a1554ae44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_salary
+  module:
+    - user
+id: user.user.field_salary
+field_name: field_salary
+entity_type: user
+bundle: user
+label: Salary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ₹
+  suffix: 'Per annum'
+field_type: integer

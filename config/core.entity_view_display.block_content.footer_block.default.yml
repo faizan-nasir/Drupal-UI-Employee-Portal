@@ -1,0 +1,88 @@
+uuid: fb0f44aa-53cc-4b67-be0a-5e604b70c1de
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_block
+    - field.field.block_content.footer_block.field_footer_text
+    - field.field.block_content.footer_block.field_menu_links
+  module:
+    - layout_builder
+    - layout_discovery
+    - link
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          71af7aeb-c377-422a-ab6c-6500b88b0226:
+            uuid: 71af7aeb-c377-422a-ab6c-6500b88b0226
+            region: content
+            configuration:
+              id: 'field_block:block_content:footer_block:field_menu_links'
+              label: 'Menu Links'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: link
+                label: hidden
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: '0'
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          4e666c3d-3c69-4f0e-846f-424e5952361c:
+            uuid: 4e666c3d-3c69-4f0e-846f-424e5952361c
+            region: content
+            configuration:
+              id: 'field_block:block_content:footer_block:field_footer_text'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: block_content.footer_block.default
+targetEntityType: block_content
+bundle: footer_block
+mode: default
+content:
+  field_footer_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_menu_links:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

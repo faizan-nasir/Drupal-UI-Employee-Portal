@@ -1,0 +1,22 @@
+uuid: 5207d353-bc0a-4297-96c1-2063375c118b
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: project_pattern
+label: 'Project Pattern'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:vocabulary:name]/[term:field_project_name]'
+selection_criteria:
+  c70d3324-b4c6-45a5-9240-08ee825cd1f6:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: c70d3324-b4c6-45a5-9240-08ee825cd1f6
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      project: project
+selection_logic: and
+weight: -5
+relationships: {  }

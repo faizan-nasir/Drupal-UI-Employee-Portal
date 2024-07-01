@@ -1,0 +1,8 @@
+uuid: 8c8f73dd-d61d-48b0-80d1-366dac5a4dde
+langcode: en
+status: true
+dependencies: {  }
+id: foot_new
+label: 'Foot New'
+revision: false
+description: 'New footer '

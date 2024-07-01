@@ -1,0 +1,19 @@
+uuid: 70ad3ba5-1f86-4b63-b58a-5436ad288bf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.blog_comments
+    - field.storage.comment.field_home_page
+id: comment.blog_comments.field_home_page
+field_name: field_home_page
+entity_type: comment
+bundle: blog_comments
+label: 'Home Page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
