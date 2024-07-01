@@ -1,0 +1,22 @@
+uuid: b255088e-8d1a-4f96-b884-a7a873df9687
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_block
+    - field.storage.block_content.field_footer_text
+  module:
+    - text
+id: block_content.footer_block.field_footer_text
+field_name: field_footer_text
+entity_type: block_content
+bundle: footer_block
+label: 'Footer text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

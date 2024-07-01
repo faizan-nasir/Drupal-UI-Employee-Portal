@@ -1,0 +1,21 @@
+uuid: 1661be0d-27bd-4320-85c3-52b2209a3fc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.project
+    - taxonomy.vocabulary.tech_skills
+  module:
+    - create_user_permission
+    - roleassign
+    - taxonomy
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'administer users'
+  - 'assign roles'
+  - 'create terms in project'
+  - 'create terms in tech_skills'
+  - 'create users'

@@ -1,0 +1,21 @@
+uuid: 5734cb0f-a2f1-43dc-be56-f534af9e22c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_customer_name
+field_name: field_customer_name
+entity_type: taxonomy_term
+type: string
+settings:
+  max_length: 55
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

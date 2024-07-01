@@ -1,0 +1,23 @@
+uuid: 158d91b8-f8aa-4888-9d86-c6eba47caf1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_block
+    - field.storage.block_content.field_menu_links
+  module:
+    - link
+id: block_content.footer_block.field_menu_links
+field_name: field_menu_links
+entity_type: block_content
+bundle: footer_block
+label: 'Menu Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

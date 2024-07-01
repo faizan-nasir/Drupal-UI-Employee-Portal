@@ -1,0 +1,9 @@
+uuid: 7476b469-0752-4371-a0de-dd65de654e76
+langcode: en
+status: true
+dependencies: {  }
+name: Designation
+vid: designation
+description: 'Job role of an employee'
+weight: 0
+new_revision: false

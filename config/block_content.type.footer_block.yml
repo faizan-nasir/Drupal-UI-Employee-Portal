@@ -1,0 +1,8 @@
+uuid: b4387517-74d0-49ee-8f80-4ee756db04f8
+langcode: en
+status: true
+dependencies: {  }
+id: footer_block
+label: 'Footer Block'
+revision: false
+description: 'Menu footer block for employees'

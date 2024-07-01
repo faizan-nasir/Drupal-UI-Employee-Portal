@@ -1,0 +1,29 @@
+uuid: 57651a30-21b5-480b-93b6-7b2066ac24e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_team
+    - taxonomy.vocabulary.project
+id: taxonomy_term.project.field_team
+field_name: field_team
+entity_type: taxonomy_term
+bundle: project
+label: Team
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

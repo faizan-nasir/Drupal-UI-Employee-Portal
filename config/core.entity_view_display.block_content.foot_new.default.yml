@@ -1,0 +1,23 @@
+uuid: bfaf698c-2d72-4855-b111-b7937d5fa547
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.foot_new
+    - field.field.block_content.foot_new.body
+  module:
+    - text
+id: block_content.foot_new.default
+targetEntityType: block_content
+bundle: foot_new
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

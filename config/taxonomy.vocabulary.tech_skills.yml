@@ -1,0 +1,9 @@
+uuid: 434083b3-9c0a-42a5-9a61-eb1ddeca23b4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tech Skills'
+vid: tech_skills
+description: 'Technical Skills'
+weight: 0
+new_revision: false
